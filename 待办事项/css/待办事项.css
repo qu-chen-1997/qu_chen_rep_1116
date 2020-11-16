@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size: 20px;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.example{
+    width:100%;
+    display: block;
+    overflow: hidden;
+    background: lightblue;
+}
+.container{
+    width:100%;
+    padding:150px 300px;
+    background:  gainsboro;
+}
+.part1{  
+    width:100%; 
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+}
+.part1 .p1_left{
+    width:60%;
+    float:left;
+}
+.part1 .p1_left input{
+    width:100%;
+    height:50px;
+    text-indent: 16px;
+    display: inline-block;
+}
+.part1 .p1_right{
+    width:10%;
+    margin-left:10%;
+}
+.part1 .p1_right button{
+    width:100%;
+    height:50px;
+    background: chartreuse;
+    display: inline-block;
+}
+.part2{
+    width:100%; 
+    background: cyan;
+    text-align: left;
+    padding:30px;
+    overflow:auto;
+}
+.part2 h2{
+    width:30%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    margin:0px auto;
+    background: pink; 
+    box-sizing: border-box;
+}
+.part2 .ul_sth{ 
+    width:100%;
+    list-style: none; 
+    margin-top:20px;
+    text-align: center;
+    background: blueviolet;
+}
+.part2 .ul_sth li{
+    height:50px;
+    line-height: 50px;
+    margin-top:30px;
+    background: yellow;
+    box-sizing: border-box;
+}
+/* .part2 .ul_sth .li_item span{
+    text-decoration: none;
+} */
+.part3{
+    width:100%; 
+    height:80px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part3 div{
+    width:200px;
+    height:50px;
+    float:left;
+}
+.part3 div button{
+    width:100%;
+    height:100%;
+    background: cornsilk;
+}
+
+.li_item{
+    text-decoration: line-through;
+}
+.toHidden{
+    display:none;
+}
