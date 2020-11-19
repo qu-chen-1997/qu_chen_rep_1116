@@ -1,0 +1,53 @@
+.menu{
+    width:500px;
+    height:200px;
+    margin:0 auto;
+    /* background: lightgreen; */
+    background:lightgreen;
+}
+.space{
+    /* width: 750px;
+    height: 500px; */
+    background-color: #cccccc;
+    margin:0px auto;
+    position: relative;
+}
+.prompt{
+    width: 750px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    background-color: #cccccc;
+    margin:0px auto;
+    position: relative;
+}
+.menu .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .btn button{
+    width:200px;
+    height:50px;
+    background: coral;
+}
+.menu .score{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .score h2{
+    width:20%;
+    height:50px;
+    line-height: 46px;
+    margin-top: 46px;
+    text-align: center;
+    background: yellow;
+}
+.menu .score span{
+    width:80%;
+    height:50px;
+    line-height: 45px;
+    margin-top: 45px;
+    text-align: center;
+    background: rgb(114, 168, 240);
+    /* display: inline-block; */
+}

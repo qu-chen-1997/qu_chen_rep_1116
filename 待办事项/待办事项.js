@@ -43,8 +43,9 @@ function subItem(){
     var show_all=null;
     var temp = all_items[0];
     for(let i=0; i<all_items.length; i++){    
-        all_items[i]=all_items[i+1];
-        if(all_items[i] != ""){
+         all_items[i]=all_items[i+1];
+       // all_items.splice(i,1);
+        if(all_items[i]){
             show_all =`<li>${all_items[i]} &nbsp;&nbsp; <span>X<span><li>`;
             sth_ul.innerHTML+=show_all;  
         }  
